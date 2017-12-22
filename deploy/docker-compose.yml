@@ -1,0 +1,5 @@
+pdfCollator:
+  image: cjmason8/pdf-collator:latest
+  ports:
+    - "8085:8080"
+

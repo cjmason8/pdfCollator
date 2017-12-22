@@ -1,0 +1,9 @@
+pdfCollator:
+  image: cjmason8/pdf-colllator:latest
+  environment:
+    ENV: test
+  ports:
+    - "8085:8080"
+  volumes:
+    - /applogs:/applogs
+    

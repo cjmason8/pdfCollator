@@ -1,5 +1,5 @@
 #!/bin/bash
 
 mvn clean install
-mvn -Dserver.port=8083 spring-boot:run
+mvn -Dserver.port=8085 spring-boot:run
 
